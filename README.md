@@ -1,4 +1,3 @@
-```markdown
 # Admin Dashboard Toko (Node.js & EJS)
 
 Sistem admin page sederhana untuk manajemen inventaris dan pembelian toko. Aplikasi ini dibangun dengan Node.js, Express, dan EJS untuk *templating*, serta menggunakan SQLite sebagai database.
@@ -22,14 +21,12 @@ Sistem admin page sederhana untuk manajemen inventaris dan pembelian toko. Aplik
 Untuk menjalankan proyek ini di komputer lokal Anda, ikuti langkah-langkah berikut:
 
 ### 1. Kloning Repositori
-
 ```bash
 git clone https://github.com/NAMA-ANDA/NAMA-REPO-ANDA.git
 cd NAMA-REPO-ANDA
 ```
 
 ### 2. Instalasi Dependensi
-
 ```bash
 npm install
 ```
@@ -37,7 +34,6 @@ npm install
 ### 3. Inisialisasi Database (Hanya 1x)
 
 Sebelum menjalankan server, Anda harus membuat dan mengisi database. Jalankan file `init-db.js` satu kali:
-
 ```bash
 node init-db.js
 ```
@@ -47,7 +43,6 @@ Perintah ini akan membuat file `toko.db` dan mengisinya dengan 10 produk awal.
 ### 4. Jalankan Server
 
 Setelah database siap, jalankan server Express:
-
 ```bash
 node index.js
 ```
@@ -71,4 +66,3 @@ Aplikasi ini menggunakan dua tabel utama:
 * `jumlah_beli` (INTEGER)
 * `tanggal` (DATETIME)
 * `status` (TEXT) - ('COMPLETED' atau 'CANCELLED')
-```
