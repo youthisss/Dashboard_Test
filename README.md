@@ -59,11 +59,13 @@ Buka http://localhost:3000 di browser Anda untuk mengakses dashboard admin.
 Aplikasi ini menggunakan dua tabel utama:
 
 ### 1. Produk
+
 * `id` (INTEGER, Primary Key)
 * `nama` (TEXT)
 * `stok` (INTEGER)
 
 ### 2. Pembelian
+
 * `id` (INTEGER, Primary Key)
 * `produk_id` (FOREIGN KEY ke Produk)
 * `jumlah_beli` (INTEGER)
